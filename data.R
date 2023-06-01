@@ -11,10 +11,11 @@ library(tseries)
 library(lubridate)
 library(zoo)
 
+# initialization
 # lagged variables
 lag_ = TRUE
 
-fredr_set_key("9a048a276f1a939a1e64c77f214e5684")
+fredr_set_key("........")
 
 #------------------------2 year treasury----------------------
 
