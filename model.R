@@ -11,7 +11,7 @@ library(tseries)
 library(lubridate)
 
 # set key
-fredr_set_key("9a048a276f1a939a1e64c77f214e5684")
+fredr_set_key("........")
 
 # include the covid shock or not
 include_covid = TRUE
