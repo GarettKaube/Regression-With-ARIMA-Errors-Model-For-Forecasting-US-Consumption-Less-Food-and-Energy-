@@ -227,7 +227,7 @@ if (lag_==TRUE){
 
 
 
-# data frames
+# data frames (Very bad and ugly code)
 pop_ts_diff_df = data.frame(population=as.matrix(pop_ts_diff), date=as.Date(as.yearmon(time(pop_ts_diff))))
 TWO_YEAR_TREASURY_ts_diff_df = data.frame(interest_rate=as.matrix(TWO_YEAR_TREASURY_ts_diff), date=as.Date(as.yearmon(time(TWO_YEAR_TREASURY_ts_diff))))
 real_gdp_ts_diff_df = data.frame(real_gdp=as.matrix(real_gdp_ts_diff), date=as.Date(as.yearmon(time(real_gdp_ts_diff))))
